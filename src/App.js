@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Game from './components/Game'
 
-const App = () => <Game />
+const App = () => (<Game />)
 
 
 // import logo from './logo.svg';
