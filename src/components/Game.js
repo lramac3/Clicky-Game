@@ -157,7 +157,7 @@ class Game extends React.Component {
       >
         <Row cls="game-heading">
           <Col size="md-12">
-            <Span cls="game-name">CLICKY GAME</Span>
+            <Span cls="game-name">CLICKY GAME OF THRONES</Span>
             <Paragraph>
               {" "}
               Click on an image to earn points, but don't click on any more than
