@@ -23,8 +23,7 @@ img:hover {
 .game-heading{
     padding-top:50px;
     padding-bottom:50px;
-    background:url("https://www.youredm.com/wp-content/uploads/2017/07/Game-of-Thrones-Logo.jpg");
-    /* background:black; */
+    background:black;
     margin-bottom:10px;
 }
 .score, .game-heading{
