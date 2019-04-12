@@ -39,7 +39,7 @@ p{
 }
 
 .container{
-    background:url("https://www.youredm.com/wp-content/uploads/2017/07/Game-of-Thrones-Logo.jpg") center center fixed;
+    background:url("https://www.youredm.com/wp-content/uploads/2017/07/Game-of-Thrones-Logo.jpg") center center fixed   ;
     background-repeat: no-repeat;
     background-size: cover;
      -webkit-background-size: cover;
@@ -57,7 +57,7 @@ span{
     font-family: 'Permanent Marker', cursive;
 }
 span.game-name { 
-    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -20px -20px repeat;
+    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -20px -20px repeat center center fixed;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display:block;
