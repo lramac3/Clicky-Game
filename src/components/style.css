@@ -50,7 +50,7 @@ p{
     background-size: cover;
 }
 span{ 
-    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -20px -20px repeat;
+    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -505px -505px repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display:block;
@@ -59,7 +59,7 @@ span{
     font-family: 'Permanent Marker', cursive;
 }
 span.game-name { 
-    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -20px -20px repeat;
+    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -505px -505px repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display:block;
