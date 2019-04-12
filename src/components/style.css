@@ -11,8 +11,8 @@ img:hover {
 .score {
     padding-top:20px;
     padding-bottom:20px;
-    background:black;
-    color:white;
+    background: #fcfbe5 #ffe;
+    color:#fcfbe5 #ffe;
     font-size:25px;
 }
 .game-area{
@@ -23,7 +23,7 @@ img:hover {
 .game-heading{
     padding-top:50px;
     padding-bottom:50px;
-    background:black;
+    background:;
     margin-bottom:10px;
 }
 .score, .game-heading{
