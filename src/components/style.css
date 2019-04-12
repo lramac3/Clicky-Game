@@ -11,6 +11,37 @@ img:hover {
 .score {
     padding-top:20px;
     padding-bottom:20px;
+    background:black;
+    color:white;
+    font-size:25px;
+}
+.game-area{
+    margin-top:10px;
+    padding-bottom:20px;
+}
+
+.game-heading{
+    padding-top:50px;
+    padding-bottom:50px;
+    background:black;
+    margin-bottom:10px;
+}
+.score, .game-heading{
+    font-family: 'Courgette', cursive;
+}
+/* img {
+    width:200px;
+    height:200px;
+    margin:15px;
+    box-shadow:0px 0px 5px black;
+    
+}
+img:hover {
+    transform: scale(1.2);
+}
+.score {
+    padding-top:20px;
+    padding-bottom:20px;
     background: #fcfbe5 #ffe;
     color:#fcfbe5 #ffe;
     font-size:25px;
@@ -22,9 +53,9 @@ img:hover {
 
 .game-heading{
     padding-top:50px;
-    padding-bottom:50px;
-    background:;
-    margin-bottom:10px;
+    padding-bottom:50px; */
+   
+    /* margin-bottom:10px;
 }
 .score, .game-heading{
     font-family: 'Courgette', cursive;
@@ -45,7 +76,7 @@ p{
     background-size: cover;
 }
 span{ 
-    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -505px -505px repeat;
+    background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -20px -20px repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display:block;
@@ -104,4 +135,4 @@ span.game-name {
     .score{
         width:100vw;
     }
-}
+} */
