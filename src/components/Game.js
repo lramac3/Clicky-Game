@@ -11,7 +11,7 @@ import "./style.css";
 class Game extends React.Component {
   state = {
     allPictures: characters, //contains the whole array of characters
-    pictures: characters.slice(0, 8), //contains only 8 pictures from characters array
+    pictures: characters.slice(0, 6), //contains only 6 pictures from characters array
     score: 0, //has the score of the current game
     highscore: 0, //has the highest score of the current session
     message: "Click to Start!", //initial message for user
@@ -19,7 +19,7 @@ class Game extends React.Component {
   };
 
   //when components are mounted, shuffle allPictures array and set state.pictures as the result
-  //(which has first 8 images from the shuffled allPictures array)
+  //(which has first 6 images from the shuffled allPictures array)
   componentDidMount() {
     const newPictures = this.shuffle(this.state.allPictures);
     this.setState({ pictures: newPictures });
@@ -48,13 +48,13 @@ class Game extends React.Component {
         () => {
           //new pointer to this
           let that = this;
-          //function to check if the 8 images shown on the page at least has one image unclicked
+          //function to check if the 6 images shown on the page at least has one image unclicked
           (function loop() {
-            //newPictures contain 8 images after shuffling that has at least one unclicked image
+            //newPictures contain 6 images after shuffling that has at least one unclicked image
             let newPictures = that.shuffle(that.state.allPictures);
-            //loop if newPicture is empty i.e the 8 images picked after shuffling allPictures are all clicked
+            //loop if newPicture is empty i.e the 6 images picked after shuffling allPictures are all clicked
             if (newPictures.length === 0) loop();
-            //if 8 images in newPictures has at least one unclicked image, set pictures array to newPictures
+            //if 6 images in newPictures has at least one unclicked image, set pictures array to newPictures
             else that.setState({ pictures: newPictures });
           })();
         }
@@ -130,15 +130,15 @@ class Game extends React.Component {
       arr[i] = arr[j];
       arr[j] = x;
     }
-    //pick first 8 pictures and check if there is any image that does not exist in alreadyPicked array yet
-    for (let j = 0; j < 8; j++) {
+    //pick first 6 pictures and check if there is any image that does not exist in alreadyPicked array yet
+    for (let j = 0; j < 6; j++) {
       const len = this.state.alreadyPicked.filter(id => id === arr[j].id)
         .length;
-      //as soon as we found the first image among the 8 images picked, that does not exist in alreadyPicked array yet,
-      //return the first 8 images of the shuffled array of 16 images
-      if (len === 0) return arr.slice(0, 8);
+      //as soon as we found the first image among the 6 images picked, that does not exist in alreadyPicked array yet,
+      //return the first 6 images of the shuffled array of 16 images
+      if (len === 0) return arr.slice(0, 6);
     }
-    //if all first 8 images in shuffled array exist in alreadyPicked array, return empty array
+    //if all first 6 images in shuffled array exist in alreadyPicked array, return empty array
     return [];
   };
 
