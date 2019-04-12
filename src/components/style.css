@@ -39,9 +39,13 @@ p{
 }
 
 .container{
-    background:url("https://www.youredm.com/wp-content/uploads/2017/07/Game-of-Thrones-Logo.jpg");
+    background:url("https://www.youredm.com/wp-content/uploads/2017/07/Game-of-Thrones-Logo.jpg") center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ 
 }
 span{ 
     background: url("https://d9np3dj86nsu2.cloudfront.net/image/f7347bbd9323fc01ee80d11c76ab6270") -20px -20px repeat;
