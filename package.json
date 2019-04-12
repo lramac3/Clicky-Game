@@ -1,6 +1,6 @@
 {
   "name": "clicky-game",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "homepage": "http://lramac3.github.io/Clicky-Game",
   "dependencies": {
