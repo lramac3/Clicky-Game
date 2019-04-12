@@ -160,7 +160,7 @@ class Game extends React.Component {
             <Span cls="game-name">CLICKY GAME</Span>
             <Paragraph>
               {" "}
-              Click on an image to earn points, but don't click on any more than
+              Click on a Game of Thrones character's image to earn points, but don't click on any more than
               once!
             </Paragraph>
           </Col>
