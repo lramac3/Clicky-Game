@@ -4,10 +4,9 @@ Clicky game is a react application wherein user can click on GOT character cards
 
 ### Description
 
-![GOT](https://user-images.githubusercontent.com/28829258/56068089-84981300-5d4b-11e9-8a01-d08546013798.png)
+![GOT](https://user-images.githubusercontent.com/28829258/56074744-7ebf2380-5d85-11e9-9e13-71618f783bee.png)
 
-Clicky game is built with React.js. Thus, the application is component based, able to keeps track of change events using state, and updates to the page render dynamically and without page refresh. It is a game that renders cards to a page, and rearranges the cards at random once a card is clicked. 
-This application is a memory-type game. Clicy game displays an array of Game of Thrones character cards for the user to click on. Once a card is clicked, the cards are rearranged. If the user clicks on the same image twice, then the user loses! 
+Clicky game is a memory-type game built with React. The game displays an array of Game of Thrones character cards for the user to click on. It is a game that renders cards to a page, and rearranges the cards at random once a card is clicked. If the user clicks on the same card twice, then the user loses! Thus, the application is component based, able to keeps track of change events using state, and updates to the page render dynamically and without page refresh. 
 
 The game can be played here:
 
