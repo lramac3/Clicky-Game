@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Clicky Game of Thrones
 
-## Available Scripts
+Clicky game is a react application wherein user can click on GOT character cards to score points. But, user can only click on a character's card once. If the user clicks on the same character's card more than once, the game ends. The game keeps track of the highest score of the current session. If user scores 18 without any repeats, user wins and the game resets.
 
-In the project directory, you can run:
+### Description
 
-### `npm start`
+![GOT](https://user-images.githubusercontent.com/28829258/56068089-84981300-5d4b-11e9-8a01-d08546013798.png)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Clicky game is built with React.js. Thus, the application is component based, able to keeps track of change events using state, and updates to the page render dynamically and without page refresh. It is a game that renders cards to a page, and rearranges the cards at random once a card is clicked. 
+This application is a memory-type game. Clicy game displays an array of Game of Thrones character cards for the user to click on. Once a card is clicked, the cards are rearranged. If the user clicks on the same image twice, then the user loses! 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The game can be played here:
 
-### `npm test`
+[Clicky GOT](https://lramac3.github.io/Clicky-Game/)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- HTML5
+- CSS3
+- Bootstrap 4
+- Javascript
+- React
